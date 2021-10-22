@@ -34,8 +34,8 @@
             function initialize() {
                 var mapCanvas = document.getElementById('map-canvas');
                 var mapOptions = {
-                    center: new google.maps.LatLng(24.909439, 91.833800),
-                    zoom: 16,
+                    center: new google.maps.LatLng(43.590656421097286, 1.4452002149612582),
+                    zoom: 20,
                     scrollwheel: false,
                     mapTypeId: google.maps.MapTypeId.ROADMAP
                 }
@@ -54,7 +54,7 @@
 
 
     </head>
-    <body data-spy="scroll" data-target=".#template-navbar">
+    <body data-spy="scroll" data-target="#template-navbar">
 
         <!--== 4. Navigation ==-->
         <nav id="template-navbar" class="navbar navbar-default custom-navbar-default navbar-fixed-top">
@@ -85,15 +85,7 @@
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.row -->
-            <div class="row my-2">
-                <div class="col-md-9">
-        
-                </div>
-                <div class="col-md-3">
-                    <!-- set link href (js dom) -->
-                    <a id="linkcommande" class="btn btn-primary mx-3" href=""> <h1> Commandez </h1></a>
-                </div>
-            </div>
+
     </nav>
     
         
@@ -130,7 +122,7 @@
 
         <!--== 6. About us ==-->
         <section id="about" class="about">
-            <img src="images/icons/about_color.png" class="img-responsive section-icon hidden-sm hidden-xs">
+         <!--   <img src="images/icons/about_color.png" class="img-responsive section-icon hidden-sm hidden-xs"> -->
             <div class="wrapper">
                 <div class="container-fluid">
                     <div class="row dis-table">
@@ -851,13 +843,13 @@
             <div class="container-fluid color-bg">
                 <div class="row dis-table">
                     <div class="hidden-xs col-sm-6 dis-table-cell">
-                        <h2 class="section-title">En contact avec nous</h2>
+                        <h3 class="section-title">En contact avec nous</h3>
                     </div>
                     <div class="col-xs-6 col-sm-6 dis-table-cell">
                         <div class="section-content">
-                            <p>134 Grande Rue Saint-Michel</p>
-                            <p>+33 12 213584</p>
-                            <p>kebab@pestro.com </p>
+                            <h2>134 Grande Rue Saint-Michel</h2>
+                            <h4>+33 12 213584</h4>
+                            <h5>kebab@pestro.com </h5>
                         </div>
                     </div>
                 </div>
@@ -920,6 +912,12 @@
         </section>
 
 
+        <a id="linkcommande" class="float">
+            <span class="my-float">Commandez</span>
+        </a>
+
+
+
         <footer>
             <div class="container">
                 <div class="row">
@@ -934,15 +932,15 @@
             </div>
         </footer>
 
-    
         <script src="js/bootstrap.min.js"></script>
         <script src="js/owl.carousel.min.js"></script>
         <script type="text/javascript" src="js/jquery.mixitup.min.js" ></script>
         <script src="js/wow.min.js"></script>
         <script src="js/jquery.validate.js"></script>
         <script type="text/javascript" src="js/jquery.hoverdir.js"></script>
-        <script type="text/javascript" src="js/jQuery.scrollSpeed.js"></script>
         <script src="js/script.js"></script>
+
+        <!--          <script type="text/javascript" src="js/jQuery.scrollSpeed.js"></script> -->
         
 
     </body>

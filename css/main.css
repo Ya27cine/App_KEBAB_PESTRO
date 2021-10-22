@@ -58,6 +58,29 @@ body
 	font-size: 14px;
 }
 
+.float{
+	position: fixed;
+    line-height: 50px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    color: #f3951d;
+    padding: 5px;
+    background-color: #f3951d;
+    color: #ffffff;
+    border-radius: 20px;
+    /* border: solid 1px orange; */
+    text-align: center;
+    font-weight: 600;
+    box-shadow: 0px 4px 8px 2px #32312f;
+  
+}
+
+.my-float{
+	margin-top:22px;
+}
+
+
 
 .btn.active.focus,
 .btn.active:focus,
@@ -910,3 +933,10 @@ footer a:hover
 		padding: 10px;
 	}
 }
+
+
+/*
+		button  link
+*/
+
+
