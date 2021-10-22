@@ -316,15 +316,18 @@ nav.shrink .navbar-toggle {
 }
 .header-title
 {
-	font-size: 112px;
+	font-size: 80px;
 	font-weight: 100;
 	margin-bottom: 0px;
 	line-height: 1;
+	background: #f3951d;
 }
 .header-sub-title
 {
 	font-size: 16px;
-	margin-left: 10px;
+	/*margin-left: 10px;*/
+	text-shadow: -1px 2px 4px black;
+	color: #CCC;
 }
 .owl-carousel .owl-wrapper, .owl-carousel .owl-item .item
 {
@@ -736,7 +739,8 @@ footer a:hover
 	}
 
 	.header-title {
-		font-size: 62px;
+		font-size: 65px;
+		background: #f3951d;
 	}
 
 	.section-header {
@@ -818,8 +822,9 @@ footer a:hover
 	}
 
 	.header-title {
-		font-size: 45px;
+		font-size: 48px;
 		margin-bottom: 5px;
+		background: #f3951d;
 	}
 
 	.header-sub-title {
