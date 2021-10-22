@@ -1,4 +1,9 @@
 
+const link_commande  = "https://www.foodbooking.com/ordering/restaurant/menu?company_uid=5e5e43a3-bca9-4baa-87e4-49172163421b&restaurant_uid=d8afeb29-b4d8-4a76-b05c-3b6aee87a9ff&facebook=true";
+$tag_link_comm = document.getElementById("linkcommande");
+$tag_link_comm.href = link_commande;
+
+
 /*=================================
 ||          Owl Carousel
 ==================================*/
