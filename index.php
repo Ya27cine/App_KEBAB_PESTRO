@@ -420,7 +420,7 @@
                     <div class=" section-content">
                         <div class="row">
                             <div class="col-md-5 col-sm-6">
-                                <form class="reservation-form" method="post" action="reserve.php">
+                                <form class="reservation-form" method="post" action="src/reserve.php">
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6">
                                             <div class="form-group">
@@ -436,7 +436,7 @@
                                                 <input type="tel" class="form-control reserve-form empty iconified" name="phone" id="phone" required="required" placeholder="  &#xf095;  Mobile">
                                             </div>
                                             <div class="form-group">
-                                                <input type="text" class="form-control reserve-form empty iconified" name="datepicker" id="datepicker" required="required" placeholder="&#xf017;  Temps">
+                                                <input type="datetime-local" class="form-control reserve-form empty iconified" name="datepicker" id="datepicker" required="required" placeholder="&#xf017;  Temps">
                                             </div>
                                         </div>
 
@@ -525,7 +525,7 @@
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
                         <div class="row">
-                             <form class="contact-form" method="post" action="contact.php">
+                             <form class="contact-form" method="post" action="src/contact.php">
                                 
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
