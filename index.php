@@ -95,29 +95,44 @@
             <div class="item">
                 <div class="container">
                     <div class="header-content">
-                        <h2 class="header-title">Nos Burgers</h2>
-                        <p class="header-sub-title">Un Burger fait pour VOUS!</p>
+                        <h2 class="header-title">Nos Plats</h2>
                     </div> <!-- /.header-content -->
                 </div>
             </div>
             <div class="item">
                 <div class="container">
                     <div class="header-content">
-                        <h1 class="header-title">Nos Tacos</h1>
-                        <p class="header-sub-title">Un Sandwich fait pour VOUS!</p>
+                        <h1 class="header-title">Grande assiette Kebab </h1>
+                        <p class="header-sub-title"> fait pour VOUS!</p>
                     </div> <!-- /.header-content -->
                 </div>
             </div>
-            <!-- 
+            
             <div class="item">
                 <div class="container">
                     <div class="header-content text-right pull-right">
-                        <h1 class="header-title">Nos </h1>
-                        <p class="header-sub-title">Un Tacos fait pour VOUS!</p>
-                    </div> /.header-content 
+                       
+                    </div> 
                 </div>
             </div>
-            -->
+
+            <div class="item">
+                <div class="container">
+                    <div class="header-content text-right pull-right">
+                        <h1 class="header-title">Nos Plats </h1>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="container">
+                    <div class="header-content text-right pull-right">
+                        <h1 class="header-title">Nos Tacos</h1>
+                        <p class="header-sub-title">Un Tacos fait pour VOUS!</p>
+                    </div> 
+                </div>
+            </div>
+            
         </section>
       
 
@@ -394,6 +409,7 @@
 
 
 
+
         <!--== 15. Reserve A Table! ==-->
         <section id="reserve" class="reserve">
             <img class="img-responsive section-icon hidden-sm hidden-xs" src="images/icons/reserve_black.png">
@@ -565,7 +581,7 @@
                     <div class="col-md-6 col-md-offset-3">
                         <div class="copyright text-center">
                             <p>
-                                &copy; Copyright, 2021 <a href="#"> ePROSTAM </a>.</a> Theme by <a href="http://eprostam.com/"  target="_blank">ThemeWagon</a>
+                                &copy; Copyright, 2021 <a href="http://eprostam.com/"> ePROSTAM </a>.</a> Theme by <a href="http://eprostam.com/"  target="_blank">ThemeWagon</a>
                             </p>
                         </div>
                     </div>

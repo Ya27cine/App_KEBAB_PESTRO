@@ -359,19 +359,33 @@ nav.shrink .navbar-toggle {
 }
 .owl-carousel .owl-wrapper, .owl-carousel .owl-item:nth-child(1) .item
 {
-	background: url('../images/1.jpg');
+	background: url('../images/nos_plats/plat5.jpg');
 	background-size: cover;
-	background-position: bottom;
+	background-position: center;
 }
 .owl-carousel .owl-wrapper, .owl-carousel .owl-item:nth-child(2) .item
 {
-	background: url('../images/2.jpg');
+	background: url('../images/nos_plats/plat17.jpg');
 	background-size: cover;
+	background-position: center;
 }
 .owl-carousel .owl-wrapper, .owl-carousel .owl-item:nth-child(3) .item
 {
-	background: url('../images/3.jpg');
+	background: url('../images/nos_plats/plat18.jpg');
 	background-size: cover;
+	background-position: center;
+}
+.owl-carousel .owl-wrapper, .owl-carousel .owl-item:nth-child(4) .item
+{
+	background: url('../images/nos_plats/plat7.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.owl-carousel .owl-wrapper, .owl-carousel .owl-item:nth-child(5) .item
+{
+	background: url('../images/nos_plats/plat3.jpg');
+	background-size: cover;
+	background-position: center;
 }
 .owl-theme .owl-controls .owl-buttons div
 {
@@ -939,4 +953,33 @@ footer a:hover
 		button  link
 */
 
+
+
+#menu-plat .item {
+	width: 40%;
+}
+
+#menu-plat .item h2 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 27px;
+}
+
+
+.menu-plat li a:hover .menu-desc span {
+	padding: 0px;
+	line-height: 18px;
+	font-size: 12px;
+}
+
+.menu-plat li a .menu-desc span h3 {
+	font-size: 19px;
+	margin-bottom: 12px;
+}
+
+
+.plat-title {
+	margin-bottom: 15px;
+	font-size: 25px;
+}
 
